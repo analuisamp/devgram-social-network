@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+</head>
+<body>
+    <div class="container-login">
+        <form class="devgram-form" id="register-form">
+            <span>Create your account now!</span>
+            <div>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required="required">
+            </div>
+            <div>
+                <input type="text" name="email" id="email" placeholder="Enter your email" required="required">
+            </div>
+            <div>
+                <input type="text" name="nick" id="nick" placeholder="Enter your nick" required="required">
+            </div>
+            <div>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required="required">
+            </div>
+            <div>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password" required="required">
+            </div>
+            <a href="/login">Click here to login</a>
+            <button type="submit" class="btn-devgram">Register</button>
+        </form>
+    </div>
+    <script src="/assets/javascript/jquery.min.js"></script>
+    <script src="/assets/javascript/register.js"></script>
+</body>
+</html>
